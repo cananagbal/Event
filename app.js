@@ -1,7 +1,7 @@
 //event//
-document.querySelector(".container").addEventListener("mousemove", steve);
+document.querySelector(".container").addEventListener("mousemove", canan);
 
-function steve(e) {
+function canan(e) {
     document.querySelector(".container").style.backgroundColor = 
     `rgb(${e.clientX % 255}, ${e.clientY % 255}, ${(e.clientX + e.clientY) % 255})`
 
